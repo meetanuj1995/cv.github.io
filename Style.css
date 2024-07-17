@@ -13,13 +13,6 @@ body {
     min-height: 100vh;
 }
 
-.text3 h3 {
-    color: #1a7288;
-    font-weight: 800; 
-    font-size: 19px; 
-    margin-top: 4px;
-    text-decoration: underline;
-}
 
 
 .container {
@@ -27,11 +20,11 @@ body {
     width: 100%;
     max-width: 1000px;
     min-height: 1000px;
-    margin: 50px;
+    margin: 10px;
     display: grid;
     grid-template-columns: 1fr 2fr;
     box-shadow: 0 35px 55px rgba(199, 35, 35, 0.2);
-    height: 100vh;
+    /* height: 100vh; */
 
 }
 
@@ -58,6 +51,15 @@ body {
         font-size: 14px;
     }
 } 
+
+.text3 h3 {
+    color: #093f4d;
+    font-weight: 800; 
+    font-size: 19px; 
+    margin-top: 4px;
+    text-decoration: underline;
+}
+
 
 
 
@@ -86,6 +88,10 @@ body {
 
 .info {
     padding: 20px;
+}
+
+.title_left {
+    letter-spacing: 0.8px;
 }
 
 .link {
@@ -161,10 +167,9 @@ body {
     color: #0bff5c;
     text-transform: uppercase;
     font-weight: 600;
-    letter-spacing: 0.4px;
-    /* margin-bottom: 20px; 
+    letter-spacing: 0.8px;
+    margin-bottom: 20px; 
     text-decoration: underline;
-    text-align: left; */
 }
 
 
@@ -291,45 +296,29 @@ p {
 
 
 
-.about .box {
+.box {
     display: flex;
     flex-direction: row;
-    margin: 15px 0; 
+    margin: 20px 0; 
 }
 
 
-.about .box .exp h5 {
+.box .exp {
     min-width: 150px;
-    color: #235036;
-    display: flex;
-    flex-direction: row;
-    margin: 10px 0; 
-    flex-direction: column;
-   
-    
+
 }
 
+.box .exp h5 {
+    color: #235036;
+    font-weight: 600;
+}
+    
 
-
-.about .box .plant h3 {
+.plant h3 {
     color: rgb(20, 126, 168);
     font-size: 18px;
-    margin-bottom: 2px;
-    position: absolute;
-    flex-direction: column;
 }
 
-
-.work {
-    margin-bottom: 5px;
-    margin-top: 25px;
-    flex-direction: column;
-}
-
-.work p {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-style: italic;
-}
 
 
 
@@ -345,7 +334,12 @@ p {
 
 /*------------------------------------------------------------------Projects------------------------------------------------------------------*/
 
-
+.title_p {
+    text-decoration: underline 1px;
+    color: #09a75d;
+    text-transform: uppercase;
+    margin-bottom: 12px;
+}
 
 
 .li {
